@@ -34,23 +34,23 @@ public:
     };
 };
 
-class Gruz : public Transport {
+class Lorry : public Transport {
 
 public:
-    Gruz(void) : Transport() {
+    Lorry(void) : Transport() {
     }
 
-    Gruz(char *pname, int w, int d) : Transport(pname, w, d) {
+    Lorry(char *pname, int w, int d) : Transport(pname, w, d) {
     }
 };
 
-class Paroxod : public Transport {
+class Steamboat : public Transport {
 
 public:
-    Paroxod(void) : Transport() {
+    Steamboat(void) : Transport() {
     }
 
-    Paroxod(char *pname, int w, int d) : Transport(pname, w, d) {
+    Steamboat(char *pname, int w, int d) : Transport(pname, w, d) {
     }
 };
 
